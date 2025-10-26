@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 import Home from './pages/Home';
 import Caracteristicas from './pages/Caracteristicas';
 import Acerca from './pages/Acerca';
@@ -20,6 +21,7 @@ function App() {
           <Route path='/acceder' element={<Acceder />} />
         </Routes>
       </div>
+      <Footer />
     </div>
   );
 }
