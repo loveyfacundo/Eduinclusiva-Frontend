@@ -108,6 +108,70 @@ function Home() {
         </div>
       </div>
 
+      {/* Adapted Plans Section */}
+      <div className="w-full pt-14 pb-8 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-4">Planificaciones Adaptadas</h2>
+          <p className="text-center text-xl text-gray-600 mb-12">Ejemplos prácticos de planificaciones escolares adaptadas para diferentes tipos de discapacidad y neurodivergencia</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {/* Tarjeta TEA */}
+            <div className="bg-white rounded-2xl shadow-md border border-purple-100 flex flex-col p-6 items-start hover:shadow-lg transition-all group">
+              <div className="bg-purple-100 p-3 rounded-xl mb-4">
+                <svg className="w-7 h-7 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="10" strokeWidth="2" />
+                  <path d="M8 15c1.333-2 6.667-2 8 0" strokeWidth="2" />
+                  <circle cx="9" cy="10" r="1" />
+                  <circle cx="15" cy="10" r="1" />
+                </svg>
+              </div>
+              <h3 className="font-bold text-lg text-gray-900">Planificaciones para TEA</h3>
+              <p className="text-purple-400 text-sm mb-2">12 ejemplos</p>
+              <p className="text-gray-600 text-sm mb-6 flex-1">Adaptaciones específicas para estudiantes con Trastorno del Espectro Autista</p>
+              <button className="border-2 border-purple-300 text-purple-500 font-semibold py-2 px-6 rounded-xl transition-all w-full group-hover:bg-purple-50 group-hover:border-purple-400">Ver Ejemplos</button>
+            </div>
+            {/* Tarjeta Discapacidad Intelectual */}
+            <div className="bg-white rounded-2xl shadow-md border border-green-100 flex flex-col p-6 items-start hover:shadow-lg transition-all group">
+              <div className="bg-green-100 p-3 rounded-xl mb-4">
+                <svg className="w-7 h-7 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <rect x="4" y="4" width="16" height="16" rx="4" strokeWidth="2" />
+                  <path d="M8 8h8v8H8z" strokeWidth="2" />
+                </svg>
+              </div>
+              <h3 className="font-bold text-lg text-gray-900">Discapacidad Intelectual</h3>
+              <p className="text-green-400 text-sm mb-2">8 ejemplos</p>
+              <p className="text-gray-600 text-sm mb-6 flex-1">Estrategias pedagógicas adaptadas para diferentes niveles de apoyo</p>
+              <button className="border-2 border-green-300 text-green-500 font-semibold py-2 px-6 rounded-xl transition-all w-full group-hover:bg-green-50 group-hover:border-green-400">Ver Ejemplos</button>
+            </div>
+            {/* Tarjeta Dificultades de Aprendizaje */}
+            <div className="bg-white rounded-2xl shadow-md border border-purple-100 flex flex-col p-6 items-start hover:shadow-lg transition-all group">
+              <div className="bg-purple-100 p-3 rounded-xl mb-4">
+                <svg className="w-7 h-7 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <rect x="4" y="4" width="16" height="16" rx="4" strokeWidth="2" />
+                  <path d="M8 12h8M8 16h8" strokeWidth="2" />
+                </svg>
+              </div>
+              <h3 className="font-bold text-lg text-gray-900">Dificultades de Aprendizaje</h3>
+              <p className="text-purple-400 text-sm mb-2">15 ejemplos</p>
+              <p className="text-gray-600 text-sm mb-6 flex-1">Planificaciones para dislexia, discalculia y otras dificultades específicas</p>
+              <button className="border-2 border-purple-300 text-purple-500 font-semibold py-2 px-6 rounded-xl transition-all w-full group-hover:bg-purple-50 group-hover:border-purple-400">Ver Ejemplos</button>
+            </div>
+            {/* Tarjeta Discapacidad Sensorial */}
+            <div className="bg-white rounded-2xl shadow-md border border-emerald-100 flex flex-col p-6 items-start hover:shadow-lg transition-all group">
+              <div className="bg-emerald-100 p-3 rounded-xl mb-4">
+                <svg className="w-7 h-7 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="10" strokeWidth="2" />
+                  <path d="M7 12h10M12 7v10" strokeWidth="2" />
+                </svg>
+              </div>
+              <h3 className="font-bold text-lg text-gray-900">Discapacidad Sensorial</h3>
+              <p className="text-emerald-400 text-sm mb-2">6 ejemplos</p>
+              <p className="text-gray-600 text-sm mb-6 flex-1">Adaptaciones para estudiantes con discapacidad visual y auditiva</p>
+              <button className="border-2 border-emerald-300 text-emerald-500 font-semibold py-2 px-6 rounded-xl transition-all w-full group-hover:bg-emerald-50 group-hover:border-emerald-400">Ver Ejemplos</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Competitive Advantages Section */}
       <div className="bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50 py-20">
         <div className="max-w-7xl mx-auto px-6">
@@ -124,7 +188,7 @@ function Home() {
             {/* Content */}
             <div className="flex-1">
               <h2 className="text-5xl font-bold text-gray-900 mb-10 tracking-tight">
-                Ventajas <span className="bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">Competitivas</span>
+                Ventajas <span className="bg-gradient-to-r from-[#a892f3] to-[#7bb4fc] bg-clip-text text-transparent">Competitivas</span>
               </h2>
               
               <ul className="space-y-4 mb-10">
@@ -171,7 +235,7 @@ function Home() {
               </ul>
 
               <Link to="/caracteristicas">
-                <button className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white font-semibold py-4 px-10 rounded-xl transition-all duration-200 inline-flex items-center gap-2 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+                <button className="bg-gradient-to-r from-[#a892f3] to-[#7bb4fc] hover:from-[#836ff7] hover:to-[#7bb4fc] text-white font-semibold py-4 px-10 rounded-xl transition-all duration-200 inline-flex items-center gap-2 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
                   Ver más en detalle
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
@@ -247,7 +311,7 @@ function Home() {
                   href="https://play.google.com/store/apps" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="bg-white text-purple-600 hover:bg-gray-100 font-semibold py-4 px-8 rounded-xl transition-all duration-200 inline-flex items-center justify-center gap-3 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                  className="bg-white text-[#a892f3] hover:bg-gray-100 font-semibold py-4 px-8 rounded-xl transition-all duration-200 inline-flex items-center justify-center gap-3 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
                 >
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M8 5v14l11-7z"/>
@@ -258,7 +322,7 @@ function Home() {
                   href="https://apps.apple.com" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="bg-white text-purple-600 hover:bg-gray-100 font-semibold py-4 px-8 rounded-xl transition-all duration-200 inline-flex items-center justify-center gap-3 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                  className="bg-white text-[#a892f3] hover:bg-gray-100 font-semibold py-4 px-8 rounded-xl transition-all duration-200 inline-flex items-center justify-center gap-3 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
                 >
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.46-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
@@ -272,7 +336,7 @@ function Home() {
             <div className="flex-1 flex justify-center">
               <div className="bg-white rounded-3xl shadow-2xl p-10 max-w-sm transform hover:scale-105 transition-transform duration-300">
                 <div className="flex flex-col items-center text-center">
-                  <div className="bg-gradient-to-br from-purple-600 to-indigo-600 rounded-3xl p-8 mb-6 shadow-lg">
+                  <div className="bg-gradient-to-br from-[#a892f3] to-[#7bb4fc] rounded-3xl p-8 mb-6 shadow-lg">
                     <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                       <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
                       <line x1="12" y1="18" x2="12.01" y2="18"></line>
@@ -280,7 +344,7 @@ function Home() {
                   </div>
                   <h3 className="text-3xl font-bold text-gray-900 mb-3">EduInclusiva</h3>
                   <p className="text-gray-600 mb-8 text-lg">Tu compañera ideal para la educación inclusiva</p>
-                  <button className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-200 w-full shadow-lg hover:shadow-xl">
+                  <button className="bg-gradient-to-r from-[#a892f3] to-[#7bb4fc] hover:from-[#836ff7] hover:to-[#7bb4fc] text-white font-semibold py-4 px-8 rounded-xl transition-all duration-200 w-full shadow-lg hover:shadow-xl">
                     Disponible Ahora
                   </button>
                 </div>

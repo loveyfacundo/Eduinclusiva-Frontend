@@ -45,7 +45,7 @@ body {
   color: #333;
 }
 .home-title-gradient span {
-  background: linear-gradient(95deg, #7367f0 40%, #31a9fa 95%);
+  background: linear-gradient(95deg, #a892f3 40%, #7bb4fc 95%);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
